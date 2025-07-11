@@ -1,0 +1,584 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+  background-color: black;
+  color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Italianno&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.main {
+    height: 94vh;
+    width: 100%;
+    background-image: url(IN-en-20250224-TRIFECTA-perspective_3a9c67b5-1d1d-49be-8499-d179f6389935_large.jpg);
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    background-size: cover;
+
+}
+
+.main .box {
+    height: 94vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+.main nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.btnn {
+    display: flex;
+    gap: 0.7vw;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+nav .logo {
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 20px;
+    border: 1px solid white;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.1);
+    border-radius: 5px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.red {
+    background-color: red;
+    border-color: red;
+}
+
+.content {
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: large;
+
+}
+
+.content .headings {
+    font-family: "DM Sans", sans-serif;
+    font-size: 65px;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+textarea {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10vw;
+    background-color: rgba(23, 23, 23, 0.1);
+    color: white;
+    font-size: larger;
+    font-family: "DM Sans", sans-serif;
+    resize: none;
+    border-radius: 5px;
+}
+
+.line {
+    margin-top: 16vh;
+    width: 100%;
+    height: 5%;
+    border: solid 5px red;
+    border-color: red transparent transparent transparent;
+    border-radius: 50%/100% 100% 0 0;
+    background-size: cover;
+    position: relative;
+    z-index: 10;
+    background-color: rgb(1, 1, 37);
+}
+
+textarea::placeholder {
+    color: white;
+    opacity: 0.7;
+}
+
+.f {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Started {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 30px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.contents {
+    background-color: black;
+    height: 100vh;
+}
+
+.head {
+    padding-top: 70px;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-size: 30px;
+    margin-left: 10vw;
+}
+
+.container .pics {
+    position: relative;
+
+    height: 300px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 150px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    color: black;
+    text-shadow: -3px 3px 0 #ffffff, 3px 3px 0 #fffafa, 1px -1px 0 #fcfcfc, -1px -1px 0 #ffffff;
+    display: flex;
+    align-items: self-end;
+    cursor: pointer;
+}
+
+.container {
+    margin-top: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    background-repeat: no-repeat;
+}
+
+.six {
+    position: relative;
+
+    height: 300px;
+    width: 100px;
+
+    border-radius: 5px;
+    background-image: url(https://occ-0-1492-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABbod3HEQ8e1n7-RMYpfXAjRzsmdywF16AK7p7Ys7toNK49kV8YWIds9AzfzwW_BqbhN6BLbINMajFxZ0x9KHOKl1s2g5fG1waUo.jpg?);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 150px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    color: black;
+    text-shadow: -3px 3px 0 #ffffff, 3px 3px 0 #fffafa, 1px -1px 0 #fcfcfc, -1px -1px 0 #ffffff;
+    display: flex;
+    align-items: self-end;
+    cursor: pointer;
+}
+
+.one {
+    background-image: url(https://occ-0-1492-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABTixI7Cz0HVkuB1KQvyT9xedX83h2ob_PwNRW74psOcCGFKugKnc9ErhsaNh6JyyjGFS7ZLrxafx7yAkgdqlsT2kP9b0oGHIRnY.jpg?);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.two {
+    background-image: url(https://occ-0-1492-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcJzeLmo8o_ta4V02-NVUG5dvSwT8M666Ex6ErzRs6hLB0TK_8PdRldvS6ZvL2eiUtsag6K5mcl70yYqWSE1u9CVYuXkDWYyIjQ.jpg?);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.three {
+    background-image: url(https://occ-0-1492-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABWAKyKvJyDn4wfHuReuOlZVtAWrvnNWN2G0Xknt86NQviATE2fh026dy-jJVn6oRtTF7vmNztGRGBt5rByYale5EIt9uXTT_7pY.jpg?);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.four {
+    background-image: url(https://occ-0-1492-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABZMosKxdFgxev7W1YxooOu2wL_Kc3LwyYduCJ8nKme-kSdFXzCIRaMV4kYchreILRl6izcs-TrvJJCatDPe_vPwJ-wR6Zjk6yHTOXTM767pKfIrjgSGm5iTT5QFzgN6xjheO.jpg?r=06c&quot);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.five {
+    background-image: url(https://occ-0-1492-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcnvCM3OzjdyKmGO-BjNbltmZeIHfrt08fESrf-MJwC3VBNP4ffbNRLHGmQ4LewHcbYoH6aaR48-G9gZlycRSUKlbzsmn7Yfrb8.jpg?);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.seven {
+    width: 30px;
+    height: 150px;
+    background-color: rgb(51, 51, 51);
+    border: 2px solid rgb(51, 51, 51);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    color: white;
+    transform: translateX(-120%);
+    cursor: pointer;
+}
+
+.seven:hover {
+    background-color: rgb(92, 92, 197);
+}
+
+.pics::before {
+    content: attr(data-num);
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-200%);
+    font-size: 100px;
+    font-weight: bold;
+    color: black;
+    background: rgba(0, 0, 0, 0.7);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.six::before {
+    content: attr(data-num);
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    font-size: 100px;
+    transform: translateX(-130%);
+    font-weight: bold;
+    color: black;
+    background: rgba(0, 0, 0, 0.7);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.gridkadabba {
+    color: white;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    justify-content: center;
+    align-items: center;
+    font-family: "DM Sans", sans-serif;
+}
+
+.gr {
+    height: 200px;
+    width: 260px;
+    background-color: rgb(30, 4, 30);
+    border: 2px solid rgb(30, 4, 30);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h {
+    font-size: 25px;
+    margin: 10px;
+
+}
+
+.mid {
+    margin: 20px;
+    font-size: 15px;
+}
+
+.h3 {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.dabba {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quesbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    height: 100px;
+    border: 2px solid rgb(63, 63, 63);
+    background-color: rgb(63, 63, 63);
+    font-family: "DM Sans", sans-serif;
+    font-size: 30px;
+    align-self: center;
+    color: white;
+    cursor: pointer;
+}
+
+.plus {
+    font-size: 50px;
+    margin-right: 15px;
+    font-weight: 100;
+}
+
+.q {
+    margin-left: 15px;
+}
+
+.headofques {
+    background-color: black;
+    padding-top: 70px;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-size: 30px;
+    padding-left: 10vw;
+    padding-bottom: 30px;
+}
+
+.quesbox:hover {
+    background-color: gray;
+}
+
+.solo {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.vb {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.z {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.z textarea {
+    padding-right: 470px;
+}
+
+.foot {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: underline white;
+}
+
+.end {
+    align-self: flex-start;
+    margin-left: 150px;
+    margin-top: 70px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+}
+
+footer {
+    background-color: black;
+}
+
+.col {
+    margin-top: 20px;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    font-family: "DM Sans", sans-serif;
+    align-items: flex-start;
+    gap: 20px;
+    font-size: 15px;
+}
+.kk{
+    cursor: pointer;
+}
+.sel select{
+    margin-left: 230px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    border: 1px solid white;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.1);
+    border-radius: 5px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.exit{
+    margin-top: 30px;
+    margin-left: 230px;
+    font-size: 15px;
+    opacity: 0.7;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+    .gridkadabba {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .quesbox {
+        width: 90vw;
+        font-size: 25px;
+    }
+
+    .foot {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .col {
+        width: 45%;
+    }
+
+    .sel select, .exit {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main nav {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    .btnn {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .content .headings {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .f, .z {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .z textarea {
+        padding-right: 30px;
+        width: 80vw;
+    }
+
+    .Started {
+        width: 80vw;
+    }
+
+    .gridkadabba {
+        grid-template-columns: 1fr;
+    }
+
+    .gr {
+        width: 80vw;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .pics, .six {
+        width: 40vw;
+        height: auto;
+    }
+
+    .seven {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content .headings {
+        font-size: 30px;
+    }
+
+    .quesbox {
+        font-size: 18px;
+        height: auto;
+        padding: 10px;
+    }
+
+    .plus {
+        font-size: 30px;
+    }
+
+    .head, .headofques {
+        font-size: 20px;
+    }
+
+    .end {
+        margin-left: 20px;
+    }
+
+    .exit {
+        margin-left: 20px;
+    }
+
+    .col {
+        width: 100%;
+        align-items: center;
+    }
+
+    .kk {
+        text-align: center;
+    }
+}
